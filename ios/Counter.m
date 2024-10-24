@@ -6,12 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import "React/RCTBridgeModule.h"
 
+@interface RCT_EXTERN_MODULE(Counter, NSObject)
 
-@interface RCT_EXTERN_MODULE(Counter, NSObject);
-
-RCT_EXPORT_METHOD(increment)
+RCT_EXTERN_METHOD(increment)
 
 @end

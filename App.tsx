@@ -1,10 +1,15 @@
 import React from "react";
-import {SafeAreaView, View, Text, StyleSheet} from "react-native";
-import {NativeModules} from "react-native";
+import {
+  SafeAreaView,
+  View,
+  Text,
+  StyleSheet,
+  NativeModules,
+} from "react-native";
 
 console.log("react-native", NativeModules);
-console.log(NativeModules.Counter);
-NativeModules.Counter.increment();
+// console.log(NativeModules.Counter);
+// NativeModules.Counter.increment();
 
 function App(): React.JSX.Element {
   return (
